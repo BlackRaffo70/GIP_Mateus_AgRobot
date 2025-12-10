@@ -3,10 +3,10 @@ import numpy as np
 import open3d as o3d
 
 # Load metadata and annotations
-with open('Vineyard Pointcloud/meta.json', 'r') as f:
+with open('../Vineyard Pointcloud/meta.json', 'r') as f:
     metadata = json.load(f)
 
-with open('Vineyard Pointcloud/dataset 2025-10-03 09-46-48/ann/pc_color_filtered.pcd.json', 'r') as f:
+with open('../Vineyard Pointcloud/dataset 2025-10-03 09-46-48/ann/pc_color_filtered.pcd.json', 'r') as f:
     annotations = json.load(f)
 
 # Load original point cloud (.pcd format)
