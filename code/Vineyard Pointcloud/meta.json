@@ -1,0 +1,32 @@
+{
+    "classes": [
+        {
+            "title": "Tree",
+            "description": "Vine tree",
+            "shape": "point_cloud",
+            "color": "#02C2FF",
+            "geometry_config": {},
+            "id": 14085274,
+            "hotkey": "T"
+        },
+        {
+            "title": "Branch 1",
+            "description": "",
+            "shape": "point_cloud",
+            "color": "#FF0079",
+            "geometry_config": {},
+            "id": 14085299,
+            "hotkey": "1"
+        }
+    ],
+    "tags": [],
+    "projectType": "point_clouds",
+    "projectSettings": {
+        "multiView": {
+            "enabled": false,
+            "tagName": null,
+            "tagId": null,
+            "isSynced": false
+        }
+    }
+}
